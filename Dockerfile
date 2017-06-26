@@ -7,4 +7,4 @@ COPY . /home/drungor
 
 RUN yarn install --production
 RUN npm run build
-ENTRYPOINT ["npm", "run", "start"]
+ENTRYPOINT ["npm", "start"]
